@@ -34,4 +34,5 @@ for i in range(99999999999999999999999999999999999):
   print('0 - да, 1 - нет')
   last_answer = int(input('Введите ответ: '))
   if last_answer == 1:
+    print('пока, до новых встреч!')
     break
