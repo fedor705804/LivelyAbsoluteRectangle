@@ -31,8 +31,8 @@ for i in range(99999999999999999999999999999999999):
   print('ты ответил на', result, 'балов')
 
   print('хотите пройти игру заново')
-  print('0 - да, 1 - нет')
+  print('1 - да, 0 - нет')
   last_answer = int(input('Введите ответ: '))
-  if last_answer == 1:
+  if last_answer != 1:
     print('пока, до новых встреч!')
     break
